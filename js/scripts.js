@@ -12,9 +12,11 @@ $(function () {
     }
   });
 
+  // SHOW RESERVE MODAL ON RESERVE BUTTON CLICK
   $("#reserveButton").click(function () {
     $("#reserveModal").modal("show");
   });
+  // SHOW LOGIN MODAL ON LOGIN BUTTON CLICK
   $("#loginButton").click(function () {
     $("#loginModal").modal("show");
   });
